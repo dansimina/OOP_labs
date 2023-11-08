@@ -14,6 +14,5 @@ public class Main {
         }
 
         System.out.println("Nr vocale = " + nrVocale + "\n" + "Nr consoane = " + nrConsoane);
-
     }
 }

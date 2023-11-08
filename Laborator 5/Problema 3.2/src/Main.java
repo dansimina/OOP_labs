@@ -27,14 +27,14 @@ public class Main {
 
         int nrR = 3, nrC = 3;
         NumarComplex[][] m11 = new NumarComplex[nrR][nrC];
-        for(int i = 0; i < nrR; i++){
-            for(int j = 0; j < nrC; j++)
+        for (int i = 0; i < nrR; i++) {
+            for (int j = 0; j < nrC; j++)
                 m11[i][j] = new NumarComplex(i, j);
         }
 
         NumarComplex[][] m22 = new NumarComplex[nrR][nrC];
-        for(int i = 0; i < nrR; i++){
-            for(int j = 0; j < nrC; j++)
+        for (int i = 0; i < nrR; i++) {
+            for (int j = 0; j < nrC; j++)
                 m22[i][j] = new NumarComplex(j, i);
         }
 
