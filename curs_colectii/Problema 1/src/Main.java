@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.LinkedList;
+import java.util.*;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -24,17 +21,17 @@ public class Main {
         Carte carte9 = new Carte("The Return of the King", autor3, 1955, "RAO");
 
 
-        ArrayList<Carte> arr = new ArrayList<>();
-        arr.add(carte1);
-        arr.add(carte2);
-        arr.add(carte3);
-        arr.add(carte4);
-        arr.add(carte5);
-        arr.add(carte6);
-        arr.add(carte7);
-        arr.add(carte8);
-        arr.add(carte9);
-        arr.add(carte1);
+//        ArrayList<Carte> arr = new ArrayList<>();
+//        arr.add(carte1);
+//        arr.add(carte2);
+//        arr.add(carte3);
+//        arr.add(carte4);
+//        arr.add(carte5);
+//        arr.add(carte6);
+//        arr.add(carte7);
+//        arr.add(carte8);
+//        arr.add(carte9);
+//        arr.add(carte1);
 
 //        Collections.sort(arr);
 //
@@ -42,20 +39,52 @@ public class Main {
 //            System.out.println(i);
 //        }
 
-        LinkedList<Carte> lista = new LinkedList<>();
-        lista.add(carte1);
-        lista.add(carte2);
-        lista.add(carte3);
-        lista.add(carte4);
-        lista.add(carte5);
-        lista.add(carte6);
-        lista.add(carte7);
-        lista.add(carte8);
-        lista.add(carte9);
-        lista.addFirst(carte6);
+//        LinkedList<Carte> lista = new LinkedList<>();
+//        lista.add(carte1);
+//        lista.add(carte2);
+//        lista.add(carte3);
+//        lista.add(carte4);
+//        lista.add(carte5);
+//        lista.add(carte6);
+//        lista.add(carte7);
+//        lista.add(carte8);
+//        lista.add(carte9);
+//        lista.addFirst(carte6);
 
-        for(Carte i: lista) {
-            System.out.println(i);
-        }
+//        for(Carte i: lista) {
+//            System.out.println(i);
+//        }
+
+//        HashSet<Carte> hashSet = new HashSet<>();
+//        hashSet.add(carte1);
+//        hashSet.add(carte2);
+//        hashSet.add(carte3);
+//        hashSet.add(carte4);
+//        hashSet.add(carte5);
+//        hashSet.add(carte6);
+//        hashSet.add(carte7);
+//        hashSet.add(carte8);
+//        hashSet.add(carte9);
+//        hashSet.add(carte1);
+
+//        for(Carte i: hashSet) {
+//            System.out.println(i);
+//        }
+
+//        LinkedHashSet<Carte> linkedHashSet = new LinkedHashSet<>();
+//        linkedHashSet.add(carte1);
+//        linkedHashSet.add(carte2);
+//        linkedHashSet.add(carte3);
+//        linkedHashSet.add(carte4);
+//        linkedHashSet.add(carte5);
+//        linkedHashSet.add(carte6);
+//        linkedHashSet.add(carte7);
+//        linkedHashSet.add(carte8);
+//        linkedHashSet.add(carte9);
+//        linkedHashSet.add(carte1);
+//
+//        for(Carte i: linkedHashSet) {
+//            System.out.println(i);
+//        }
     }
 }

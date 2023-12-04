@@ -46,9 +46,14 @@ public class Carte implements Comparable<Carte>{
         return editura;
     }
 
+//    @Override
+//    public int compareTo(Carte o) {
+//        return this.getEditura().compareTo(o.getEditura());
+//    }
+
     @Override
     public int compareTo(Carte o) {
-        return this.getEditura().compareTo(o.getEditura());
+        return this.anAparitie - o.anAparitie;
     }
 
     @Override
