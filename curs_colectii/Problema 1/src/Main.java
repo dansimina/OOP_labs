@@ -86,5 +86,25 @@ public class Main {
 //        for(Carte i: linkedHashSet) {
 //            System.out.println(i);
 //        }
+
+//        TreeSet<Carte> treeSet = new TreeSet<>();
+//        treeSet.add(carte1);
+//        treeSet.add(carte2);
+//        treeSet.add(carte3);
+//        treeSet.add(carte4);
+//        treeSet.add(carte5);
+//        treeSet.add(carte6);
+//        treeSet.add(carte7);
+//        treeSet.add(carte8);
+//        treeSet.add(carte9);
+//        treeSet.add(carte1);
+//        // nu se adauga daca au acelasi an, pt ca avem comparatia pentru an si tree set nu ne lasa sa avem dublicate(foloseste arbori rosu-negru)
+//
+//        for(Carte i: treeSet) {
+//            System.out.println(i);
+//        }
+//
+//        System.out.println(treeSet.contains(carte1));
+
     }
 }
