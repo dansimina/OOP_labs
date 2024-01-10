@@ -51,7 +51,7 @@ public class DragBallPanel extends JPanel implements MouseListener, MouseMotionL
      */
     public DragBallPanel() {
         actionListener = new ControllerActionListener();
-        loop = new Timer(100, actionListener);
+        loop = new Timer(25, actionListener);
         setPreferredSize(new Dimension(300, 300));
         setBackground(Color.blue);
         setForeground(Color.yellow);
