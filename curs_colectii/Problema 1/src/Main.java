@@ -32,7 +32,7 @@ public class Main {
 //        arr.add(carte8);
 //        arr.add(carte9);
 //        arr.add(carte1);
-
+//
 //        Collections.sort(arr);
 //
 //        for(Carte i: arr) {
@@ -50,7 +50,7 @@ public class Main {
 //        lista.add(carte8);
 //        lista.add(carte9);
 //        lista.addFirst(carte6);
-
+//
 //        for(Carte i: lista) {
 //            System.out.println(i);
 //        }
@@ -66,7 +66,7 @@ public class Main {
 //        hashSet.add(carte8);
 //        hashSet.add(carte9);
 //        hashSet.add(carte1);
-
+//
 //        for(Carte i: hashSet) {
 //            System.out.println(i);
 //        }
