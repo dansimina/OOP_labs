@@ -38,7 +38,7 @@ public class Main {
 //        for(Carte i: arr) {
 //            System.out.println(i);
 //        }
-
+//
 //        LinkedList<Carte> lista = new LinkedList<>();
 //        lista.add(carte1);
 //        lista.add(carte2);

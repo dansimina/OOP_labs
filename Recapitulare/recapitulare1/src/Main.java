@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Iterator;
+
 public class Main {
     public static void main(String[] args) {
 //        int[] arr = new int[10];
@@ -21,21 +24,21 @@ public class Main {
 //        for (Animal a : sirAnimale)
 //            a.ceMananca();
 
-        String[] s = {"10", "student", "5"};
-        for (int i = 0; i <= s.length; i++) {
-            try {
-                int num = Integer.parseInt(s[i]);
-                System.out.println(num);
-
-
-            } catch (NumberFormatException e) {
-                System.out.println("nu e nr");
-            } catch (ArrayIndexOutOfBoundsException e) {
-                System.out.println("ai iesit din vector");
-            } finally {
-                System.out.println("gata boss");
-            }
-        }
+//        String[] s = {"10", "student", "5"};
+//        for (int i = 0; i <= s.length; i++) {
+//            try {
+//                int num = Integer.parseInt(s[i]);
+//                System.out.println(num);
+//
+//
+//            } catch (NumberFormatException e) {
+//                System.out.println("nu e nr");
+//            } catch (ArrayIndexOutOfBoundsException e) {
+//                System.out.println("ai iesit din vector");
+//            } finally {
+//                System.out.println("gata boss");
+//            }
+//        }
 
 //        int p = 0;
 //        try {
@@ -44,6 +47,20 @@ public class Main {
 //            throw new RuntimeException(e);
 //        }
 //        System.out.println(p);
+
+        HashSet<String> s = new HashSet<String>();
+        s.add("jingle");
+        s.add("bells");
+        s.add("jingle");
+        s.add("bells");
+        System.out.println("Setul contine:");
+        Iterator<String> i = s.iterator();
+        while (i.hasNext())
+            System.out.println(i.next());
+        i.remove(); //
+        System.out.println("Dupa stergere:");
+        i = s.iterator();
+        while (i.hasNext()) System.out.println(i.next());
     }
 
     public static int perimetruDreptunghi(int a, int b, int c, int d) throws Exception {
